@@ -28,7 +28,7 @@ describe("EntityRotation", () => {
     });
     console.log("### Instance");
     console.log(Object.keys(instance));
-    expect(scriptType.serverCalculated).to.be.false;
+    expect(instance.serverCalculated).to.be.false;
   });
 
   it("should initialize with serverCalculated = true", () => {
